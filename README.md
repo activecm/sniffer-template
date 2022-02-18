@@ -13,10 +13,10 @@ This is a ready-to-go base for building your custom packet sniffer.
 - Scapy has already identified the headers in the packet.  To see what's been identified, run "p.show()"
 - The lines that are currently in processpacket are examples, and can be deleted.
 - You can:
--- Print information about each packet
--- Collect statistics on the entire packet stream
--- Save some packets to an output file
--- Do a test (like "if p.haslayer(TCP) and p[TCP].dport == 443:") and process those differently
+	1. Print information about each packet
+	2. Collect statistics on the entire packet stream
+	3. Save some packets to an output file
+	4. Do a test (like "if p.haslayer(TCP) and p[TCP].dport == 443:") and process those differently
 
 
 # Features
