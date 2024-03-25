@@ -5,7 +5,7 @@ This is a ready-to-go base for building your custom packet sniffer.
 # Steps
 - Make sure python3 and scapy are installed
 - Copy this script to your script name
-- Edit any sections marked "REPLACEME".  This will include the trivial "...description='__sniffer_tmplate version '..." and the processpacket function
+- Edit any sections marked "REPLACEME".  This will include the trivial "...description='__sniffer_template version '..." and the processpacket function
 
 
 # processpacket
